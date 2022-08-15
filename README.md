@@ -1,4 +1,4 @@
-![forthebadge](https://forthebadge.com/images/badges/cc-0.svg)
+
   
   
 
@@ -22,23 +22,35 @@
   
 After these few months learning Python and Django with Openclassrooms, it is time to put all my learnings into an actual working Django app.  
   
-When time came to choose a side-project, I dreamed many unfeasable ideas for the 'App' but definitevely not worth adding burden to poor Earth.  
+When time came to choose a side-project, I dreamed a few unfeasable ideas for the 'App' but definitevely not worth addingincreasing the climate burden to poor Earth.  
   
+
 We're, like many others a spread over family, across regions, across countries and each travelling back and forth.   
+
   
 So grow the idea of sharing together in a secure way where we are what we do even sometimes letting he, her ,they join in.  
   
-Privacy is sensible so we couldn't 'just' use a shared agenda hosted by one of big [`FAANG`/`NATU`/`BHATX`/`YVMOR`](https://en.wikipedia.org/wiki/Big_Tech) ; Nothing against for other services but not for where-we-are-when and what-we-do.  
+Privacy is sensitive so we couldn't 'just' use a shared agenda hosted by one of big [`FAANG`/`NATU`/`BHATX`/`YVMOR`](https://en.wikipedia.org/wiki/Big_Tech) ; Nothing against theses services but not to be used for where-we-are-when and what-we-do.  
 
-The project is intented to be open source shared with anyone (check the `AGPLv3`, wanted a copyleft one including hosted services). Will see how far we will go in that direction.  
+It seems a solution to have part of the data encrypted when hosted while decrypted only by certified back and front-end apps are accessing it.
 
 
-
-So first step is to gather ideas on possible app usage, former open source projects and investigate coding tools and solutions.
+So first step is to gather ideas on possible app usage, other's open source projects and investigate coding tools and solutions.
 
 Next wwould be to define a scope for the solution, write down and share use cases. 
 
-**Having fun, Devs!**
+Designing the architecture relevant to the use case and no budget scope comes after.  
+  
+Eventually, the coding may start...  
+until the first P.R ;-)  
+  
+  
+**Having fun, Devs!**  
+  
+  
+  
+The project is intented to be open source, shared with anyone (check the `AGPLv3`, [wanted a copyleft one including hosted services](https://opensource.org/faq#which-license)).   
+  
   
 
 ---
@@ -88,3 +100,7 @@ First not reinventing the wheel, just use it:
 [Using custom model fields to encrypt and decrypt data in Django | by Alfred Yang | finnovate.io | Medium](https://medium.com/finnovate-io/using-custom-model-fields-to-encrypt-and-decrypt-data-in-django-8255a4960b72)
 @Alfred_Yang and @David_Petrosyan   
   
+
+---
+
+[Create Badges with GitHub Actions! | Simon Schneegans’ Blog](http://schneegans.github.io/tutorials/2022/04/18/badges)
