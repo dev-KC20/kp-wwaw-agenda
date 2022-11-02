@@ -105,6 +105,7 @@ Following instructions have been tested on a windows system. It should be easy t
 3. Create a virtual environment to isolate all dependencies  
    `python -m venv ENV  
    `ENV\Scripts\active  
+4. go to try-sajib\event-calendar
    
   
 ## Credits and good reads.  
