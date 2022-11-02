@@ -66,6 +66,46 @@ Finally the code itself is secured by reducing the exposure of secrets to public
 MFA, encrypt  
 
 ----  
+
+
+
+# Benchmark of other's solution  
+      
+  
+Sajib Hossain made quite a good job with his event-calendar demo case [GitHub - sajib1066/event-calendar: Django-based Event Calendar application.](https://github.com/sajib1066/event-calendar).
+His chosen license was GPL3 which allows us to access and make trails.   
+  
+  >"sajib1066/event-calendar is licensed under the GNU General Public License v3.0"
+  >[event-calendar/LICENSE at main · sajib1066/event-calendar · GitHub](https://github.com/sajib1066/event-calendar/blob/main/LICENSE)
+  >### GNU General Public License v3.0
+  >Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
+  >  
+  
+Therefore we git cloned its works, all credit goes to him.   
+Thx you [sajib1066 (Sajib Hossain) · GitHub](https://github.com/sajib1066)!  
+  
+  
+  
+  
+## Trial of sajib1066's event-calendar  
+  
+The event model is a good start ;    
+Sqlite is good to start with until we devise how to use workers locally against PostgreSQL API ORM and encrypt over different ORM's.   
+We first use the Django embeded client which we will need to split apart later    
+  
+  
+  
+  
+## How to install sajib's show case  
+  
+Following instructions have been tested on a windows system. It should be easy to adapt to Nix systems.  
+  
+1. Choose a local working dir on you PC  
+2. `git clone https://github.com/dev-KC20/kp-wwaw-agenda.git
+3. Create a virtual environment to isolate all dependencies  
+   `python -m venv ENV  
+   `ENV\Scripts\active  
+   
   
 ## Credits and good reads.  
 

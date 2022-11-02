@@ -1,9 +1,0 @@
-__pycache__/
-*.py[cod]
-
-# Django stuff
-.env 
-ENV
-
-# Editor files
-.vscode/
