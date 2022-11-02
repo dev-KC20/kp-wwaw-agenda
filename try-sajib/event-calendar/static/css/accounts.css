@@ -6624,7 +6624,8 @@ button.bg-dark:focus {
 
 .mt-4,
 .my-4 {
-  margin-top: 1.5rem !important; }
+  margin-top: 1.5rem ; }
+  /* margin-top: 1.5rem !important; } */
 
 .mr-4,
 .mx-4 {
@@ -8197,7 +8198,7 @@ h1, h2, h3, h4, h5,
   position: relative;
   z-index: 0; }
   .text-wrap:after {
-    background: #6807f9;
+    /* background: #6807f9; */
     position: absolute;
     top: 0;
     left: 0;
@@ -8388,9 +8389,9 @@ textarea.form-control {
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #6807f9 !important;
-    border: 1px solid #6807f9 !important;
-    color: #fff !important;
+    /* background: #6807f9 !important;
+    border: 1px solid #6807f9 !important; */
+    /* color: #fff !important; */
     -webkit-box-shadow: 0px 10px 19px -16px rgba(0, 0, 0, 0.29) !important;
     -moz-box-shadow: 0px 10px 19px -16px rgba(0, 0, 0, 0.29) !important;
     box-shadow: 0px 10px 19px -16px rgba(0, 0, 0, 0.29) !important; }
