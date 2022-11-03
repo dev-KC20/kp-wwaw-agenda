@@ -81,10 +81,18 @@ His chosen license was GPL3 which allows us to access and make trails.
   >Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
   >  
   
-Therefore we git cloned its works, all credit goes to him.   
-Thx you [sajib1066 (Sajib Hossain) · GitHub](https://github.com/sajib1066)!  
+Its value for us would not be his data model but saving the tedious work of building a nice user interface for the event, daily, weekly or monthly views of the events.
+
+Therefore it could be possible to use his work.
+All credit would go to him, Thank you [sajib1066 (Sajib Hossain) · GitHub](https://github.com/sajib1066)!  
   
-  
+Other possible Agenda solutions:
+* [GitHub - linuxsoftware/ls.joyous: A calendar application for Wagtail](https://github.com/linuxsoftware/ls.joyous)
+* nothing since 2019-09-01: [Files · master · Daniel F Meyer / wagtail_eventcalendar · GitLab](https://gitlab.com/dfmeyer/wagtail_eventcalendar/-/tree/master)
+* a new version (relying on jquery) is available under develop branch: [GitHub - llazzaro/django-scheduler: A calendaring app for Django.](https://github.com/llazzaro/django-scheduler/tree/develop)
+* nothing since 2018-05-16: [GitHub - Gagaro/wagtail-calendar: A planning calendar for wagtail](https://github.com/Gagaro/wagtail-calendar)
+* about 1 year ago: [SebGen / Wagtail Agenda · GitLab](https://framagit.org/SebGen/wagtail-agenda) 
+* about 1 year ago: [Alan Trick / django-agenda · GitLab](https://gitlab.com/alantrick/django-agenda)
   
   
 ## Trial of sajib1066's event-calendar  
@@ -100,15 +108,16 @@ We first use the Django embeded client which we will need to split apart later
   
 Following instructions have been tested on a windows system. It should be easy to adapt to Nix systems.  
   
-1. Choose a local working dir on you PC  
-2. `git clone https://github.com/dev-KC20/kp-wwaw-agenda.git
-3. Create a virtual environment to isolate all dependencies  
-   `python -m venv ENV  
-   `ENV\Scripts\active  
-4. go to try-sajib\event-calendar
-   
+Just follow Sajib's original instructions available at :
+   [try-sajib\event-calendar\README.md](try-sajib\event-calendar\README.md)
   
-## Credits and good reads.  
+#
+
+
+
+
+
+# Credits and good reads.  
 
 First not reinventing the wheel, just use it:  
   
