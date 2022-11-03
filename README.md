@@ -69,7 +69,7 @@ MFA, encrypt
 
 
 
-# Benchmark of other's solution  
+## Review of other Agenda solutions
       
   
 Sajib Hossain made quite a good job with his event-calendar demo case [GitHub - sajib1066/event-calendar: Django-based Event Calendar application.](https://github.com/sajib1066/event-calendar).
@@ -81,49 +81,38 @@ His chosen license was GPL3 which allows us to access and make trails.
   >Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
   >  
   
-Its value for us would not be his data model but saving the tedious work of building a nice user interface for the event, daily, weekly or monthly views of the events.
 
 Therefore it could be possible to use his work.
-All credit would go to him, Thank you [sajib1066 (Sajib Hossain) · GitHub](https://github.com/sajib1066)!  
+All credits would thrn go to him, in any case Thank you [sajib1066 (Sajib Hossain) · GitHub](https://github.com/sajib1066)!  
   
-Other possible Agenda solutions:
+  
+## Why would we investigate sajib1066's event-calendar  
+  
+Its value for us would not be his data model but saving the tedious work of building a nice user interface for the event, daily, weekly or monthly views of the events.
+Sqlite is good to start with like he did until we find out how to use workers locally against PostgreSQL API ORM. We shall also remember the encryption feature heavier to implement with different ORM.   
+  
+  
+## How to install sajib's show case  
+  
+His instructions & solution have been tested on a windows system. It should be easy to adapt to Nix systems.  
+  
+Just follow this copy of Sajib's original instructions. It is hereunder available at try-sajib\event-calendar\README.md under the branch try-sajib.
+  
+
+# Other possible solutions to be checked
+
 * [GitHub - linuxsoftware/ls.joyous: A calendar application for Wagtail](https://github.com/linuxsoftware/ls.joyous)
 * nothing since 2019-09-01: [Files · master · Daniel F Meyer / wagtail_eventcalendar · GitLab](https://gitlab.com/dfmeyer/wagtail_eventcalendar/-/tree/master)
 * a new version (relying on jquery) is available under develop branch: [GitHub - llazzaro/django-scheduler: A calendaring app for Django.](https://github.com/llazzaro/django-scheduler/tree/develop)
 * nothing since 2018-05-16: [GitHub - Gagaro/wagtail-calendar: A planning calendar for wagtail](https://github.com/Gagaro/wagtail-calendar)
 * about 1 year ago: [SebGen / Wagtail Agenda · GitLab](https://framagit.org/SebGen/wagtail-agenda) 
 * about 1 year ago: [Alan Trick / django-agenda · GitLab](https://gitlab.com/alantrick/django-agenda)
-  
-  
-## Trial of sajib1066's event-calendar  
-  
-The event model is a good start ;    
-Sqlite is good to start with until we devise how to use workers locally against PostgreSQL API ORM and encrypt over different ORM's.   
-We first use the Django embeded client which we will need to split apart later    
-  
-  
-  
-  
-## How to install sajib's show case  
-  
-Following instructions have been tested on a windows system. It should be easy to adapt to Nix systems.  
-  
-Just follow Sajib's original instructions available at :
-   [try-sajib\event-calendar\README.md](try-sajib\event-calendar\README.md)
-  
-#
-
 
 
 
 
 # Credits and good reads.  
 
-First not reinventing the wheel, just use it:  
-  
-[Django Packages : Calendar](https://djangopackages.org/grids/g/calendar/?python3=1)  
-  
-  
 [How to enable appointment scheduling for your website or app](https://yalantis.com/blog/appointment-schedule/)
 @Victor_Osadchiy
 
@@ -141,19 +130,12 @@ First not reinventing the wheel, just use it:
 
 [georgemarshall/django-cryptography: Easily encrypt data in Django](https://github.com/georgemarshall/django-cryptography)  
   
-
-
- [How To Encrypt And Decrypt Password In Django - Python Guides](https://pythonguides.com/encrypt-and-decrypt-password-in-django/)  
+[How To Encrypt And Decrypt Password In Django - Python Guides](https://pythonguides.com/encrypt-and-decrypt-password-in-django/)  
 
    
 [Using custom model fields to encrypt and decrypt data in Django | by Alfred Yang | finnovate.io | Medium](https://medium.com/finnovate-io/using-custom-model-fields-to-encrypt-and-decrypt-data-in-django-8255a4960b72)
 @Alfred_Yang and @David_Petrosyan   
   
 
-@Pascal_Fares  
-[Github Organisation, teams, et projets agile en mode open source - YouTube](https://www.youtube.com/watch?v=in-zf9Hx3_k)
-  
-
 ---
 
-[Create Badges with GitHub Actions! | Simon Schneegans’ Blog](http://schneegans.github.io/tutorials/2022/04/18/badges)

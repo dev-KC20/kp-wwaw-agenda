@@ -1,8 +1,7 @@
 # Event Calendar in Django
 
-https://www.youtube.com/watch?v=HvnPeeLEVq0&t=0s
 
-# Demo
+# Screenshot
 
 ![](static/images/screenshot-0.png)
 
@@ -10,16 +9,18 @@ https://www.youtube.com/watch?v=HvnPeeLEVq0&t=0s
 
 ## How To Setup
 ```
-git clone https://github.com/sajib1066/event-calendar.git
+git clone https://github.com/dev-KC20/kp-wwaw-agenda.git
 ```
 ```
-cd event-calendar
+git checkout try-sajib
+cd try-sajib
+cd event-calendar   
 ```
 ```
 python3 -m venv ENV
 ```
 ```
-source ENV/bin/activate
+ENV/bin/activate
 ```
 ```
 pip install -r requirements.txt
@@ -35,4 +36,9 @@ python manage.py createsuperuser
 ```
 ```
 python manage.py runserver
+# for the user Front-end
+open your webbrowser 127.0.0.1:8000 
+# for the superuser admin site
+open your webbrowser 127.0.0.1:8000/admin 
+# and log in with your just created supperuser credentials
 ```
